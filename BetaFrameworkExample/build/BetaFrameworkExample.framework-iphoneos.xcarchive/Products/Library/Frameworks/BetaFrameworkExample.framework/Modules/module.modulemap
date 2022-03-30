@@ -1,0 +1,11 @@
+framework module BetaFrameworkExample {
+  umbrella header "BetaFrameworkExample.h"
+
+  export *
+  module * { export * }
+}
+
+module BetaFrameworkExample.Swift {
+    header "BetaFrameworkExample-Swift.h"
+    requires objc
+}

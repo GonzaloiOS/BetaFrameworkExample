@@ -25,7 +25,7 @@ public struct TIFView: View {
                 .padding()
             
             ForEach(1..<20) { index in
-                Text("Index \(index)")
+                Text("Index: \(index)")
             }
         }
     }

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		C54B14B527F3F7A100099C18 /* BetaFrameworkExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C54B14B427F3F7A100099C18 /* BetaFrameworkExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C54B14BC27F3F7BB00099C18 /* TIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54B14BB27F3F7BB00099C18 /* TIFView.swift */; };
+		C573731127F4AC8B004765FC /* TIFAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C573731027F4AC8B004765FC /* TIFAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C54B14B127F3F7A100099C18 /* BetaFrameworkExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetaFrameworkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54B14B427F3F7A100099C18 /* BetaFrameworkExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetaFrameworkExample.h; sourceTree = "<group>"; };
 		C54B14BB27F3F7BB00099C18 /* TIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIFView.swift; sourceTree = "<group>"; };
+		C573731027F4AC8B004765FC /* TIFAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TIFAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				C54B14B427F3F7A100099C18 /* BetaFrameworkExample.h */,
 				C54B14BB27F3F7BB00099C18 /* TIFView.swift */,
+				C573731027F4AC8B004765FC /* TIFAdapter.swift */,
 			);
 			path = BetaFrameworkExample;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54B14BC27F3F7BB00099C18 /* TIFView.swift in Sources */,
+				C573731127F4AC8B004765FC /* TIFAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

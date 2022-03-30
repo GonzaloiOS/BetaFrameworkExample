@@ -7,21 +7,17 @@
 
 import SwiftUI
 
-public struct TIFAdapter {
-    let pnr: String
-}
-
 public struct TIFView: View {
     
-    let adapter: TIFAdapter
+    public let adapter: String
     
-    public init(adapter: TIFAdapter) {
+    public init(adapter: String) {
         self.adapter = adapter
     }
     
     public var body: some View {
         ScrollView {
-            Text("PNR: \(adapter.pnr)")
+            Text("PNR: \(adapter)")
                 .padding()
             
             ForEach(1..<20) { index in
@@ -33,6 +29,6 @@ public struct TIFView: View {
 
 struct TIFView_Previews: PreviewProvider {
     static var previews: some View {
-        TIFView(adapter: TIFAdapter(pnr: "GON 123"))
+        TIFView(adapter: "GON 123")
     }
 }

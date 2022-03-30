@@ -17,7 +17,7 @@ public struct TIFView: View {
     
     public var body: some View {
         ScrollView {
-            Text("PNR: \(adapter)")
+            Text("PNR is: \(adapter)")
                 .padding()
             
             ForEach(1..<20) { index in
